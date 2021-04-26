@@ -1,8 +1,13 @@
 {
-    "ok": true,
-    "result": {
-        "url": "",
-        "has_custom_certificate": false,
-        "pending_update_count": 0
-    }
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
